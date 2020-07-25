@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Heroicode Games Studio <games@heroicode.com>">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+  <title>Egaru by HeroiCode Game Studio</title>
+  <style>
+    * {margin: 0; background: #111; box-sizing: border-box;}
+    canvas {display: block; margin: 0 auto;}
+  </style>
+  <!-- build:null libs.js -->
+  <script src="../node_modules/phaser/build/custom/phaser-arcade-physics.min.js"></script>
+  <!-- endbuild -->
+</head>
+<body>
+  <!-- build:js game.js -->
+  <script src="./utils.js"></script>
+
+  <script src="./states/menu.js"></script>
+  <script src="./states/newgame.js"></script>
+  <script src="./states/level.js"></script>
+  <script src="./states/credits.js"></script>
+  <script src="./states/help.js"></script>
+  <script src="./states/win.js"></script>
+
+  <script src="./preload.js"></script>
+  <script src="./boot.js"></script>
+  <!-- endbuild -->
+</body>
+</html>
